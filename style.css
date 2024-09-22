@@ -1,0 +1,130 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.main{
+    background-color: black;
+    height: 460px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 15px;
+}
+ 
+.main button{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top:1%;
+    left: 2%;
+    bottom: 1%;
+    margin: 7px 5px;
+    padding-inline: 0px 0px;
+    font-size: 23px;
+    font-family:sans-serif;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color:rgb(62, 68, 75);
+    color: white;
+}
+button:hover{
+    background-color: darkgrey;
+}
+button:active{
+    background-color:dimgrey;
+}
+#ac:hover{
+    background-color: darkgrey;
+}
+#ac:hover{
+    background-color: dimgray;
+}
+#yy:hover{
+    background-color:goldenrod;
+}
+#yy:active{
+    background-color: gold;
+}
+
+#history {
+    position: absolute;
+    top: 120px;
+    right: 320px; 
+    width: 240px;
+    height: 420px;
+    background-color: rgba(29, 26, 26, 0.7); 
+    color: rgb(234, 232, 232);
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    overflow-y: auto;
+    font-size: medium; 
+}
+
+#history h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #faf9f6;
+}
+
+
+#textfield{
+    position: relative;
+    top: 1%;
+    left: 1%;
+    background-color: white;
+    text-align: right;
+    height: 27px;
+    width: 250px;
+    margin: 10px 8px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+#ac{
+    background-color: gray;
+}
+
+#yy{
+background-color: orange;
+}
+
+@media only screen and (max-width: 768px) {
+    #history {
+        right: 10px; 
+        width: 200px; 
+        height: 300px; 
+    }
+
+     #history h2 {
+        font-size: 18px; 
+    }
+
+    #history {
+        font-size: small; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #history {
+        right: 5px; 
+        width: 180px; 
+        height: 250px; 
+        padding: 10px; 
+    }
+
+    #history h2 {
+        font-size: 16px;
+    }
+
+    #history {
+        font-size: smaller; 
+    }
+}
