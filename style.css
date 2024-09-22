@@ -78,6 +78,7 @@ button:active{
     top: 1%;
     left: 1%;
     background-color: white;
+    border:white;
     text-align: right;
     height: 27px;
     width: 250px;
@@ -85,7 +86,6 @@ button:active{
     padding: 10px;
     color: black;
     border-radius: 10px;
-    border:white;
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bolder;
@@ -120,7 +120,7 @@ background-color: orange;
     #history {
         right: 32px; 
         width: 180px; 
-        height: 439px; 
+        height: 434px; 
         padding: 10px; 
     }
 
