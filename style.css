@@ -2,7 +2,10 @@
     margin: 0px 0px;
     padding: 0px 0px;
 }
-
+body{
+    background: linear-gradient(to bottom, #1a1919, #4c4c4c);
+    height: 100vh;
+}
 .main{
     background-color: black;
     height: 460px;
