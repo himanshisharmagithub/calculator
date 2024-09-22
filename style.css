@@ -114,9 +114,9 @@ background-color: orange;
 
 @media only screen and (max-width: 480px) {
     #history {
-        right: 5px; 
+        right: 32px; 
         width: 180px; 
-        height: 250px; 
+        height: 445px; 
         padding: 10px; 
     }
 
