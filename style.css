@@ -56,9 +56,9 @@ button:active{
 #history {
     position: absolute;
     top: 120px;
-    right: 320px; 
-    width: 240px;
-    height: 420px;
+    right: 616px; 
+    width: 190px;
+    height: 422px;
     background-color: rgba(29, 26, 26, 0.7); 
     color: rgb(234, 232, 232);
     border-radius: 10px;
